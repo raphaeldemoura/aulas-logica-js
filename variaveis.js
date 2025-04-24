@@ -1,19 +1,58 @@
-//declaração de variável com var
+// declaração de variável com var
 
-/*var nome = "Raphael"
+// var nome = "Oliver"
 
- var nome = "Oliver"*/
+// var nome = "Raphael"
 
- //declaração de variável com let
+// declaração de variável com let
 
-//  let nome = "Raphael"
+// let nome = "Oliver"
 
-//  nome = "oliver"
+// nome ="Raphael"
 
-//variável declarada com const
+// variável declarada com const
 
-const nome = "Raphael"
+const nome = "Raphael"  // string
 
-nome = "oliver"
+const sobrenome = "Moura"
 
- console.log(nome)
+const valor = 21.90  // number
+
+const islogin = false  // boolean
+
+let preco  // undefined
+
+const endereco = null  //null  
+
+const alunos = ["João", "Maria", "José"] //array
+
+const alunoDoSenai = {
+    nome: "Raphael",
+    sobrenome: "Moura",
+    turno: "noturno",
+    idade: 16,
+    cursos: ["inclusão digital", "programação web"]
+}
+
+
+const alunosDoSenai = [
+    {
+        login:"raphael_viana",
+        email:"raphaeldemoura3715@gmail.com",
+        cursos:["games","web"]
+    },
+    {
+        login:"maria",
+        email:"maria@gmail.com",
+        cursos:["design","games"]
+    }
+]
+
+// console.log(nome + " " + sobrenome)
+
+console.log(`Meu nome completo é ${nome} ${sobrenome} ${4 + 4}`)
+
+
+// console.log(alunosDoSenai[1].cursos[0]) 
+
+// console.log(alunos[0]) //pega o valor do indice do array 
