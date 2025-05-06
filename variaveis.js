@@ -1,48 +1,48 @@
 // declaração de variável com var
 
-// var nome = "Oliver"
+/*var nome = "Leticya"
 
-// var nome = "Raphael"
+var nome = "Dias"*/
 
-// declaração de variável com let
+// declaração de variável com let 
 
-// let nome = "Oliver"
+// let nome = "Leticya"
 
-// nome ="Raphael"
+// nome = "Dias"
 
-// variável declarada com const
+// variavel declarada com cons
 
-const nome = "Raphael"  // string
+const nome = "Leticya" // string
 
-const sobrenome = "Moura"
+const sobrenome = "Dias"
 
-const valor = 21.90  // number
+const valor = 21.90 // number
 
-const islogin = false  // boolean
+const isLogin = false // boolean
 
-let preco  // undefined
+let preco // undefined
 
-const endereco = null  //null  
+const endereco = null // null
 
-const alunos = ["João", "Maria", "José"] //array
+const alunos = ["João","Maria","José"] // array
 
 const alunoDoSenai = {
-    nome: "Raphael",
-    sobrenome: "Moura",
-    turno: "noturno",
-    idade: 16,
-    cursos: ["inclusão digital", "programação web"]
+    nome : "Leticya",
+    sobrenome: "Dias",
+    turno:"noturno",
+    idade: 18,
+    cursos:["games","programação web"]
 }
 
 
 const alunosDoSenai = [
     {
-        login:"raphael_viana",
-        email:"raphaeldemoura3715@gmail.com",
+        login:"João",
+        email:"joao@gmail.com",
         cursos:["games","web"]
     },
     {
-        login:"maria",
+        login:"Maria",
         email:"maria@gmail.com",
         cursos:["design","games"]
     }
@@ -50,9 +50,12 @@ const alunosDoSenai = [
 
 // console.log(nome + " " + sobrenome)
 
-console.log(`Meu nome completo é ${nome} ${sobrenome} ${4 + 4}`)
+// console.log(`Meu nome completo é ${nome} ${sobrenome} ${4 + 4}`)
+
+console.log(`Meu nome completo é ${nome} ${sobrenome}`)
+
+// console.log(alunosDoSenai[1].cursos[0])
 
 
-// console.log(alunosDoSenai[1].cursos[0]) 
 
-// console.log(alunos[0]) //pega o valor do indice do array 
+// console.log(alunos [0]) pega o valor do indice do array
